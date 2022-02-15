@@ -83,7 +83,7 @@ const Saved = () => {
         return (
             <div className="Error">
                 <p><strong>{error}</strong></p>
-                <Link to="/">
+                <Link to="/10hourlabTakeHome">
                 <button >
                     <span>Go Home</span>
                 </button>
@@ -165,7 +165,7 @@ const Saved = () => {
                     subContainerClassName={"pages pagination"}
                     activeClassName={"active"}
                     />
-                    <Link to="/">
+                    <Link to="/10hourlabTakeHome">
                     <button >
                         <span>All Profile</span>
                     </button>
